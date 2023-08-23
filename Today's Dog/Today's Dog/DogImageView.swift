@@ -1,44 +1,11 @@
 //
-//  ContentView.swift
+//  DogImageView.swift
 //  Today's Dog
 //
-//  Created by GYURI PARK on 2023/08/22.
+//  Created by GYURI PARK on 2023/08/23.
 //
 
 import SwiftUI
-
-struct ContentView: View {
-    @StateObject var vm = DogImageViewModel()
-    
-    var body: some View {
-        VStack(spacing: 50) {
-            
-            
-            TitleTextView(vm: vm)
-            
-            DogImageView(imageURL: vm.randomDogImage?.message ?? "")
-            
-            
-            Button (action: {
-                
-                vm.getRandomImage()
-            }) {
-                Rectangle()
-                    .frame(width: 340, height: 80)
-                    .cornerRadius(50)
-            }
-        }
-    }
-}
-
-struct TitleTextView: View {
-    
-    @StateObject var vm: DogImageViewModel
-    
-    var body: some View {
-        Text("오늘의 강아지를 확인해보세요🐕")
-    }
-}
 
 struct DogImageView: View {
     
@@ -72,11 +39,5 @@ struct DogImageView: View {
             }
         }
         
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }

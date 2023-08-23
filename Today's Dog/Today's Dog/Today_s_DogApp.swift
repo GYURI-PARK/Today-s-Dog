@@ -11,7 +11,7 @@ import SwiftUI
 struct Today_s_DogApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

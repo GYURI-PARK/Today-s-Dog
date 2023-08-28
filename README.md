@@ -1,13 +1,14 @@
 # [NC2] 비동기 처리와 Combine의 사랑법
 
 ## 📱 구현한 UI
-https://github.com/GYURI-PARK/Indieplus_Pohang/assets/93391058/03d90b81-c44f-40aa-bf67-06044560cf3f
+
+![Simulator Screen Recording - iPhone 14 Pro - 2023-08-25 at 20 20 30](https://github.com/GYURI-PARK/Today-s-Dog/assets/93391058/36c0ec57-3ce0-4990-bb1f-23d83fd3886d)
 
 ## 📝 Combine 기초
 ### Combine이란?
 
 > Customize handling of asynchronous events by combining event-processing operators
-> 
+
 
 <aside>
 💡 비동기 이벤트를 잘 처리하기 위해 ~
